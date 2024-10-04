@@ -1,9 +1,13 @@
-import React from "react";
 import PlantCard from "./PlantCard";
+import React from "react";;
 
 function PlantList() {
+
+
   return (
-    <ul className="cards">{/* render PlantCards components in here */}</ul>
+    <>
+    <PlantCard />
+    </>
   );
 }
 
